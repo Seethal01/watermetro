@@ -1,0 +1,490 @@
+.rect2{
+    position: absolute;
+    width: 1100px;
+    height: 220px;
+    left: 200px;
+    top: 202px;
+    border: none; 
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(5, 5, 5, 0.3);
+}
+.kakkanad{
+    color: rgb(12, 12, 12);
+    font-size: 15px;
+    position:absolute;
+    left: 116px;
+    top:170px;
+    display: inline-block;
+    
+}
+.imgkakkanad-img{
+    position: absolute;
+    width: 220px;
+    height: 150px;
+    left: 50px;
+    top: 30px;
+    border-radius: 15px;
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.imgkakka{
+    position: relative;
+    width:800px;
+    height:480px;
+}
+.vyttila{
+    color: rgb(8, 7, 7);
+    font-size: 15px;
+    position: absolute;
+    left: 390px;
+    top:170px;
+    display: inline-block;
+}
+.imgvyttila{
+    position: absolute;
+    width: 220px;
+    height: 150px;
+    left: 320px;
+    top: 30px;
+    border-radius: 15px;
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.highcourt{
+    color: rgb(9, 9, 9);
+    font-size: 15px;
+    position: absolute;
+    left: 630px;
+    top:170px;
+    display: inline-block;
+}
+
+.imghighcourt{
+    position: absolute;
+    width: 220px;
+    height: 150px;
+    left: 580px;
+    top: 30px;
+    border-radius: 15px;
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.vypin{
+    color: rgb(6, 6, 6);
+    font-size: 15px;
+    position: absolute;
+    left: 900px;
+    top:170px;
+    display: inline-block;
+}
+.imgvypin{
+    position: absolute;
+    width: 220px;
+    height: 150px;
+    left: 830px;
+    top: 30px;
+    border-radius: 15px;
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.terminal2{
+    position: relative;
+    top:200px;
+}
+.t1{
+    position: relative;
+    top: 10px;
+    font-weight: 600;
+    color:#1289c0;
+    font-size: 28px;
+    background: linear-gradient(180deg, #0660b4, #15bbb0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.kak{
+    position: relative;
+    color: #070707;
+    font-weight:  600;
+    font-size: 17px;
+    height: 18px;
+    padding-top: 2px;
+}
+.loc{
+    position: relative;
+    font-size: 17px;
+    top:5px;
+    font-style: oblique;
+}
+.loc1{
+    position: relative;
+    font-size: 17px;
+    top:20px;
+    font-style: oblique;
+}
+.descrip{
+    position:relative;
+    font-size: 15px;
+    letter-spacing: 0.1px;
+    width:1100px;
+}
+.descrip1{
+    position:relative;
+    font-size: 15px;
+    letter-spacing: 0.1px;
+    top:10px;
+}
+
+.nearby{
+    position: relative;
+    top: -4px;
+    font-weight: 600;
+    color:#1289c0;
+    font-size: 28px;
+    background: linear-gradient(180deg, #0660b4, #15bbb0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.attractions{
+    position: relative;
+    top:-25px;
+    font-size: 17px;
+    font-weight: 400;
+} 
+.container {
+    position:relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    max-height: 500px; 
+    overflow-x: auto; 
+}
+.placce1{
+    position :relative;
+    width:230px;
+    left:30px;
+    top: 0px;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(62, 62, 62);
+}
+
+.locca1{
+    position :relative;
+    width:230px;
+    left:30px;
+    top:-30px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.dessc1{
+    position :relative;
+    width:230px;
+    left:30px;
+    top:-55px;
+    font-size: 13px;
+}
+
+.placce2{
+    position :relative;
+    width:230px;
+    left:25px;
+    top:0px;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(62, 62, 62);
+}
+.locca2{
+    position :relative;
+    width:230px;
+    left:25px;
+    top:-30px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.dessc2{
+    position :relative;
+    width:230px;
+    left:25px;
+    top:-55px;
+    font-size: 13px;
+}
+.placce3{
+    position :relative;
+    width:230px;
+    left:25px;
+    top:0px;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(62, 62, 62);
+}
+.locca3{
+    position :relative;
+    width:230px;
+    left:25px;
+    top:-30px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.dessc3{
+    position :relative;
+    width:230px;
+    left:25px;
+    top:-55px;
+    font-size: 13px;
+}
+.placce4{
+    position :relative;
+    width:230px;
+    left:25px;
+    top:0px;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(62, 62, 62);
+}
+.locca4{
+    position :relative;
+    width:280px;
+    left:10px;
+    top:-30px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.dessc4{
+    position :relative;
+    width:230px;
+    left:25px;
+    top:-55px;
+    font-size: 13px;
+}
+.placce5{
+    position :relative;
+    width:230px;
+    left:25px;
+    top:0px;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(62, 62, 62);
+}
+.locca5{
+    position :relative;
+    width:230px;
+    left:25px;
+    top:-30px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.dessc5{
+    position :relative;
+    width:230px;
+    left:25px;
+    top:-55px;
+    font-size: 13px;
+}
+.placce6{
+    position :relative;
+    width:230px;
+    left:25px;
+    top:0px;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(62, 62, 62);
+}
+.locca6{
+    position :relative;
+    width:280px;
+    left:25px;
+    top:-30px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.dessc6{
+    position :relative;
+    width:230px;
+    left:25px;
+    top:-55px;
+    font-size: 13px;
+}
+.placce7{
+    position :relative;
+    width:230px;
+    left:25px;
+    top:0px;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(62, 62, 62);
+}
+.locca7{
+    position :relative;
+    width:230px;
+    left:25px;
+    top:-30px;
+    font-weight: 600;
+    font-size: 18px;
+}
+  .dessc7{
+    position :relative;
+    width:230px;
+    left:25px;
+    top:-55px;
+    font-size: 13px;
+}
+
+.cont{
+   position:relative;
+    background-color: thistle;
+    top:200px;
+    width: 1200px;
+    height: 300px;
+    left:-60px;
+    z-index:-1;
+}
+.h11{
+    position :relative;
+    width:240px;
+    height:200px;
+    left:26px;
+    top:20px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    z-index:1;
+}
+.h11:hover{
+  transform: scale(1.09); 
+}
+.h12{
+    position :relative;
+    width:240px;
+    height:200px;
+    left:25px;
+    top:20px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+.h12:hover{
+  transform: scale(1.09); 
+}
+
+.h13{
+    position :relative;
+    width:240px;
+    height:200px;
+    left:25px;
+    top:20px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;  
+}
+.h13:hover{
+  transform: scale(1.09); 
+}
+.h14{
+    position :relative;
+    width:240px;
+    height:200px;
+    left:25px;
+    top:20px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.h14:hover{
+  transform: scale(1.09); 
+}
+
+.h15{
+    position :relative;
+    width:240px;
+    height:200px;
+    left:25px;
+    top:20px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+.h15:hover{
+  transform: scale(1.09); 
+}
+
+.h16{
+    position :relative;
+    width:240px;
+    height:200px;
+    left:25px;
+    top:20px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+.h16:hover{
+  transform: scale(1.09); 
+}
+.h17{
+    position :relative;
+    width:240px;
+    height:200px;
+    left:25px;
+    top:20px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;  
+}
+.h17:hover{
+   transform: scale(1.09); 
+}
+.container {
+    width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+    position: relative;
+}
+
+.item {
+    display: inline-block;
+    width: 240px;
+    height: 320px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+.left-button,
+.right-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: lightgray;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.left-button {
+    left: 1px;
+}
+
+.right-button {
+    right: 1px;
+}
+
+
+
+
+  
+  
+
+  
+  
